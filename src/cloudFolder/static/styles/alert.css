@@ -1,0 +1,35 @@
+
+  .alert {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 30%;
+  }
+
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+
+.close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
